@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.autolock-keyring"
+        path="/org/gnome/shell/extensions/autolock-keyring/">
+
+        <key type="b" name="show-indicator">
+            <default>true</default>
+            <summary>Show indicator</summary>
+            <description>Show the indicator on the top panel</description>
+        </key>
+
+        <key type="u" name="timeout-maximum">
+            <default>60</default>
+            <summary>Maximum timeout after the latest unlock of the keyring</summary>
+            <description>Maximum timeout in minutes before relocking the keyring. 0 to disable</description>
+        </key>
+
+    </schema>
+
+</schemalist>

@@ -1,0 +1,8 @@
+{
+    "name": "Auto-Lock Keyring",
+    "description": "Automatically locks the keyring following period of inactivity",
+    "url": "https://github.com/jboillot/autolock-keyring",
+    "uuid": "autolock-keyring@jerome-boillot.com",
+    "settings-schema": "org.gnome.shell.extensions.autolock-keyring",
+    "shell-version": ["42", "43", "44"]
+}
